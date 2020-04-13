@@ -1,0 +1,23 @@
+.message {
+  display: block;
+  padding: 1rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+
+  &.owner {
+    border-color: yellow;
+  }
+
+  &.moderator {
+    border-color: blue;
+  }
+
+  &.sponsor {
+    border-color: green;
+  }
+
+  &.question {
+    border-color: red !important;
+  }
+}
